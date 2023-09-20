@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  width: 100%;
+}
+h1,
+h2,
+h3 {
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+body {
+  font-family: "Advent Pro", sans-serif;
+  position: relative;
+  padding-top: 100px;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header,
+.footer {
+  background-color: #e3b342;
+  min-height: 100px;
+}
+.header .container.flex {
+  width: 100%;
+}
+nav {
+  max-width: 175px;
+  width: 100%;
+}
+.container {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero.flex {
+  justify-content: center;
+  gap: 50px;
+}
+.products.flex {
+  justify-content: center;
+  gap: 30px;
+}
+.products article {
+  max-width: 320px;
+}
+article p {
+    text-align: justify;
+}
+
+.main section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero {
+}
+.hero__left {
+  max-width: 450px;
+}
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+}
+.hero__right {
+  max-width: 400px;
+}
+.hero__right img {
+  width: 100%;
+}
+.products {
+}
+.products__item {
+}
+.info {
+    width: 100%;
+}
+.price {
+}
+.footer section {
+  width: 100%;
+}
+.footer section ul {
+  justify-content: center;
+  gap: 50px;
+}
